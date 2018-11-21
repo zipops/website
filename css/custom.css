@@ -1,0 +1,188 @@
+@media (min-width: 576px) {
+    .col-sm-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 20%;
+        max-width: 25%;
+    }
+}
+
+.fa-long-arrow-down-custom {
+    font-size: 3em;
+    padding-top: 0.45em;
+}
+
+.logo-feature {
+    width: 130px;
+    height: auto;
+}
+
+.logo-zipops {
+    width: 36px;
+    height: 36px;
+    background-size: cover;
+    background-position: center;
+}
+
+.brand-title {
+    color: white;
+    margin: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-menu a {
+    padding: 14px 15px 18px 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+}
+
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    float: right;
+}
+
+.scrolltop {
+    background: #009688;
+}
+
+#header {
+    background: #009688;
+    height: 53px;
+}
+
+#header #logo {
+    margin: 7px 0 0 0;
+}
+
+#header #logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 32px;
+}
+
+
+/* ==================================================
+  Buton Start
+  ================================================== */
+  .btn {
+    /* background-color: #199EB8; */  
+    width: 6em;
+    height: 6em;
+    line-height: 5.8em;
+    text-align: center;
+    font-size: 1.45em;
+    padding: 0;
+    border-color: #fff;
+    border-width: 3px;
+  }
+  
+  .btn:hover {
+    background-color: #009688;
+    color: #fff;
+  }
+  
+  .btn:focus {
+    color: #fff;
+  }
+  
+  .btn-ghost {
+    border: 3px solid #fff;
+    background-color: transparent;
+  }
+  
+  .btn-ghost:hover {
+    background-color: #fff;
+    color: #199EB8;
+  }
+
+
+
+#about {
+    background: #f7f7f7;
+}
+
+#partner {
+    background: #ffffff;
+}
+
+/* ==================================================
+  Meet our team
+  ================================================== */
+
+#team {
+    background: #f7f7f7;
+}
+
+#team .row {
+    justify-content: center;
+}
+
+.team .col-sm-3 {
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-bottom: 20px;
+}
+
+
+
+
+#contact {
+    background: #ffffff;
+}
+
+#about h2 {
+    color: #009688;
+}
+
+#partner h2 {
+    color: #009688;
+}
+
+#team h2 {
+    color: #009688;
+}
+
+#contact h2 {
+    color: #009688;
+}
+
+#contact .info i {
+    color: #009688;
+}
+
+#contact .form button[type="submit"] {
+    background: #009688;
+}
+
+#contact .form button[type="submit"]:hover {
+    background: #009688b8;
+}
+
+.card {
+    margin-left: 5px;
+    margin-right: 5px;
+    /* filter: grayscale(100%); */
+}
+
+.team .team-over {
+    padding-top: 90px;
+}
+
+.team .card-title-wrap {
+    text-align: center;
+}
+
+.team .card:hover .card-title-wrap {
+    background-color: #009688;
+  }
+
+.site-footer .bottom .list-inline a:hover {
+    color: #009688;
+  }
