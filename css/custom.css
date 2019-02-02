@@ -72,7 +72,7 @@
   Buton Start
   ================================================== */
   .btn {
-    /* background-color: #199EB8; */  
+    /* background-color: #199EB8; */
     width: 6em;
     height: 6em;
     line-height: 5.8em;
@@ -82,21 +82,21 @@
     border-color: #fff;
     border-width: 3px;
   }
-  
+
   .btn:hover {
     background-color: #009688;
     color: #fff;
   }
-  
+
   .btn:focus {
     color: #fff;
   }
-  
+
   .btn-ghost {
     border: 3px solid #fff;
     background-color: transparent;
   }
-  
+
   .btn-ghost:hover {
     background-color: #fff;
     color: #199EB8;

@@ -1,9 +1,3 @@
-/*
-    Theme Name: Bell
-    Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
@@ -581,25 +575,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   .partner {
     padding-bottom: 45px;
   }
-  
+
   .partner h2 {
     color: #199EB8;
   }
-  
+
   .partner-col {
     display: table;
     padding-bottom: 45px;
   }
-  
+
   .partner-col > div > div {
     display: table-cell;
     vertical-align: middle;
   }
-  
+
   .partner-col > div > div:last-child {
     padding-left: 20px;
   }
-  
+
   .partner-col .feature-icon {
     width: 70px;
     height: 70px;
@@ -612,17 +606,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 50%;
     display: inline-block;
   }
-  
+
   .partner-col h3 {
     color: #199EB8;
   }
-  
+
   .partner-col p {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #999;
   }
-  
+
 
 
 /* ==================================================
