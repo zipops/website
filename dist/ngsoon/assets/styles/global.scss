@@ -1,0 +1,217 @@
+@import 'themes/index';
+@import 'variables';
+@import 'globals/index';
+
+
+//================ Common Styles =============
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: $font-family-base;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $foreground;
+  -webkit-tap-highlight-color: mat-color($primary);
+  -webkit-touch-callout: none;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
+  background-color: #eee;
+}
+
+[tabindex='-1']:focus {
+  outline: none;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  height: 0;
+}
+
+select,
+button,
+textarea,
+input {
+  vertical-align: baseline;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  &[dir=rtl],
+  &[dir=ltr] {
+    unicode-bidi: embed
+  }
+}
+
+bdo[dir=rtl] {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+bdo[dir=ltr] {
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+// ================= Common classes ===================
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+// ================ HEADER ========================
+.page-header {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// image
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+// commingsoon common css
+.comming_logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 21px;
+  overflow: hidden;
+}
+
+.comming_top_content {
+  text-align: center;
+}
+
+.count_down mat-card {
+  background: transparent !important;
+  border-radius: 10px;
+  color: #fff !important;
+  width: 90px;
+  height: 90px;
+  padding: 20px 10px 0px 10px;
+}
+
+.count_down mat-card h3 {
+  margin-bottom: 5px;
+}
+
+.count_down mat-card mat-card-title {
+  margin-bottom: 5px;
+}
+
+.zipops-about {
+  padding-bottom: 10px;
+}
+
+input.form-control {
+  font-size: 15px;
+  padding-left: 15px;
+  height: 34px;
+  border-radius: 10px;
+  background: #eee;
+  border: 0;
+}
+
+input.form-control:focus {
+  border: 0px solid;
+  outline: transparent;
+}
+
+
+.email_field {
+  border-radius: 5px 0px 0px 5px !important;
+  margin: 0 !important;
+}
+
+.subscribe-btn {
+  border-radius: 0px 5px 5px 0px !important;
+}
+
+.email_field::-webkit-input-placeholder {
+  color: #ccc !important;
+}
+
+button.subscribe-btn.mat-raised-button[disabled] {
+
+  color: #fff !important;
+  font-weight: normal !important;
+}
+
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.alert-success {
+  color: #ccc;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-warning {
+  color: #bd412b;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+span.text-warning a {
+  display: none;
+}
+
+
+@media (max-width: 764px) {
+
+  .comming_top_wrap {
+
+    padding: 4rem 0 0rem 0;
+    background-size: cover !important;
+
+  }
+  .left_side {
+
+    padding: 30px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 599px) {
+
+  .zipops-about mat-card {
+    padding: 24px 0px;
+  }
+}
+
+.mr-4 {
+    margin-right: 2rem;
+}

@@ -1,0 +1,55 @@
+// ================== Heights ================
+@for $i from 0 through 10 {
+  [t-height-#{$i * 100}],
+  .t-height-#{$i * 100} {
+    height: #{$i * 100}px;
+  }
+}
+
+.t-height-100vh,
+[t-height-100vh] {
+  min-height: 100vh;
+}
+
+.t-height-full,
+[t-height-full] {
+  height: 100%;
+}
+
+//==================== Widths =====================
+@for $i from 0 through 10 {
+  [t-width-#{$i * 100}],
+  .t-width-#{$i * 100} {
+    width: #{$i * 100}px;
+  }
+}
+
+[t-width-50],
+.t-width-50 {
+  width: 50px;
+}
+
+.t-width-full,
+[t-width-full] {
+  width: 100%;
+}
+
+.t-width-lg,
+[t-width-lg] {
+  width: 1200px;
+}
+
+.t-width-md,
+[t-width-md] {
+  width: 980px;
+}
+
+.t-width-sm,
+[t-width-sm] {
+  width: 640px;
+}
+
+.t-width-xs,
+[t-width-xs] {
+  width: 300px;
+}
