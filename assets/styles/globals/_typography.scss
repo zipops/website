@@ -1,0 +1,147 @@
+@import "../../../assets/styles/_variables.scss";
+
+p {
+  margin: 0 0 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-heading;
+  color: #323d47;
+  letter-spacing: .5px;
+}
+
+h1,
+.t-h1,
+[t-h1] {
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 0 0 10px;
+}
+
+h2,
+.t-h2,
+[t-h2] {
+  font-size: 28px;
+  line-height: 1.3;
+  margin: 0 0 10px;
+}
+
+h3,
+.t-h3,
+[t-h3] {
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 0 0 10px;
+}
+
+h4,
+.t-h4,
+[t-h4] {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+h5,
+.t-h5,
+[t-h5] {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+h6,
+.t-h6,
+[t-h6] {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+.t-fz-xs,
+[t-fz-xs] {
+  font-size: 10px;
+}
+
+.t-fz-sm,
+[t-fz-sm] {
+  font-size: 14px;
+}
+
+.t-fz-md,
+[t-fz-md] {
+  font-size: 18px;
+}
+
+.t-fz-lg,
+[t-fz-lg] {
+  font-size: 22px;
+}
+
+.t-fz-xl,
+[t-fz-xl] {
+  font-size: 28px;
+}
+
+@for $i from 1 through 10 {
+  .t-fz-#{$i} {
+    font-size: #{$i}rem;
+  }
+}
+
+@for $i from 1 through 9 {
+  [t-fw-#{$i * 100}],
+  .t-fw-#{$i * 100} {
+    font-weight: $i * 100;
+  }
+}
+
+//==================== Texts =====================
+.t-ta-center,
+[t-ta-center] {
+  text-align: center
+}
+
+.t-ta-left,
+[t-ta-left] {
+  text-align: left;
+}
+
+.t-ta-right,
+[t-ta-right] {
+  text-align: left;
+}
+
+[t-text-muted] .t-text-muted {
+  color: #cccccc;
+}
+
+.text-primary {
+  color: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-success {
+  color: #2bb14a;
+}
+
+.text-warning {
+  color: #e99a34;
+}
+
+.text-black {
+  color: #506171;
+}
+
+.text-muted {
+  color: #a3a3a3;
+}
+

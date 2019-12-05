@@ -1,0 +1,79 @@
+// Text colors
+.t-color-primary,
+[t-color-primary] {
+    color: mat-color($primary);
+}
+.t-color-accent,
+[t-color-accent] {
+    color: mat-color($accent);
+}
+.t-color-warn,
+[t-color-warn] {
+    color: mat-color($warn);
+}
+.t-color-success,
+[t-color-success] {
+    color: mat-color($success);
+}
+.t-color-info,
+[t-color-info] {
+    color: mat-color($info);
+}
+.t-color-white,
+[t-color-white] {
+    color: #ffffff;
+}
+.t-color-black,
+[t-color-black] {
+    color: #000000;
+}
+.t-color-gray,
+[t-color-gray] {
+    color: rgba(0,0,0, .5);
+}
+.t-color-gray-light,
+[t-color-gray-light] {
+    color: rgba(0,0,0, .2);
+}
+
+// Backgrounds
+.t-primary,
+[t-primary] {
+    background-color: mat-color($primary);
+}
+.t-accent,
+[t-accent] {
+    background-color: mat-color($accent);
+}
+.t-warn,
+[t-warn] {
+    background-color: mat-color($warn);
+}
+.t-success,
+[t-success] {
+    background-color: mat-color($success);
+}
+.t-info,
+[t-info] {
+    background-color: mat-color($info);
+}
+.t-black,
+[t-black] {
+    background-color: #000000;
+}
+.t-gray,
+[t-gray] {
+    background-color: rgba(0,0,0, .5);
+}
+.t-gray-light,
+[t-gray-light] {
+    background-color: rgba(0,0,0, .2);
+}
+
+
+// ************* Exceptions, only for crewnie *******************
+// Disabled button for color="primary"
+button[color="primary"][disabled] {
+    background-color: mat-color($primary, 200) !important;
+    color: #ffffff !important;
+}

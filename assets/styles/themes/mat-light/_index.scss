@@ -1,0 +1,19 @@
+@import '~@angular/material/theming';
+@include mat-core();
+@import 'palettes';
+
+$primary: mat-palette($palette-primary);
+$accent:  mat-palette($palette-accent);
+$warn:  mat-palette($palette-warn);
+$success:  mat-palette($palette-success);
+$info:  mat-palette($palette-info);
+
+$mat-theme: mat-light-theme($primary, $accent, $warn);
+
+$foreground: rgba(117, 117, 117, 1);
+$background: #ffffff;
+
+.mat-light {
+    @include angular-material-theme($mat-theme);
+    @import 'theme-scaffolding';
+}

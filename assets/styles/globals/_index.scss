@@ -1,0 +1,98 @@
+@import 'typography';
+@import 'margins';
+@import 'paddings';
+@import 'height-width';
+//================== Component specific Attributes and classes ============
+button.t-wide,
+button[t-wide] {
+    padding: 0 45px;
+}
+
+textarea.t-wide,
+textarea[t-wide] {
+    width: 220px;
+}
+
+button.t-icon,
+button[t-icon] {
+    .mat-icon {
+        height: 20px;
+        width: 20px;
+        font-size: 20px;
+        line-height: 18px;
+        margin: 0 4px;
+    }
+}
+
+button.t-small,
+button[t-small] {
+    font-size: 12px !important;
+    height: 30px;
+    line-height: 28px !important;
+    .mat-icon {
+        height: 18px;
+        width: 18px;
+        font-size: 18px;
+        line-height: 16px;
+    }
+}
+
+// ================ Others ================
+.t-fix,
+[t-fix] {
+    position: relative;
+    overflow: hidden;
+}
+
+.t-fix-elm,
+[t-fix-elm]::after {
+    display: table;
+    width: 100%;
+    content: "";
+}
+
+.t-clear,
+[t-clear] {
+    clear: both;
+}
+
+.t-round,
+[t-round] {
+    border-radius: 10px !important;
+}
+
+.t-circle,
+[t-circle] {
+    border-radius: 50% !important;
+}
+
+// button and anchor
+.btn {}
+
+.btn-circle-10 {
+    border-radius: 10px !important
+}
+
+.btn-circle-5 {
+    border-radius: 5px !important
+}
+
+.btn-primary {
+    background: #5a13d0 !important;
+}
+
+.facebook-btn {
+    background: #2a5297 !important;
+}
+
+.google-btn {
+    background: #cd463d !important;
+}
+
+.twitter-btn {
+    background: #00aced !important;
+}
+
+.linkedin-btn {
+    background: #0274b3 !important;
+}
