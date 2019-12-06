@@ -1,0 +1,21 @@
+[
+	{
+	  "name":"organization 1",
+	  "id":"1",
+      "projects":[
+         {
+			"name":"ZipOps",
+			"id":"98e900ab"
+         },
+         {
+			"name":"Pfinder",
+			"id":"12"
+         }
+	  ]
+   },
+   {
+	  "name":"orga2",
+	  "id":"2",
+      "projects":[      ]
+   }
+]
