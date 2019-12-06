@@ -1,7 +1,7 @@
 [
 	{
 		"label": "What is ZipOps?",
-		"answer": "<p>Zipops is an epitech school project. Our goal is to simplify complex deployment with open source tools.</p>"
+		"answer": "<p>Zipops is an epitech school project. Our goal is to simplify complex deployment with production ready application and open source tools.</p>"
 	},
 	{
 		"label": "What is a cluster ?",
@@ -16,10 +16,13 @@
 	},
 	{
 		"label": "Where to start ?",
-		"answer": "<p>Zipops ... blablabla</p>"
+		"answer": "<p>To getting started with Zipops you can create a cluster. Clusters are your ressources, it allows you to deploy your app on it.</p>"
 	},
 	{
 		"label": "I’ve just deploy my app, What to do next ?",
-		"answer": "<p>Zipops ... blablabla</p>"
+		"answer": [
+			"<p>You're pretty much done, you can test your app with the given link.</p>",
+			"<p>Then, ou can deploy as many ohter app as you want, check your engines and cluster status.</p>"
+		]
 	}
 ]
