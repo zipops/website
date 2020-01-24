@@ -1,0 +1,32 @@
+[
+	{
+		"id": "100",
+		"email": "jack@jambon.fr",
+		"role": "admin"
+	},
+	{
+		"id": "101",
+		"email": "georges@jambon.fr",
+		"role": "dev"
+	},
+	{
+		"id": "102",
+		"email": "mickael@jambon.fr",
+		"role": "ops"
+	},
+	{
+		"id": "103",
+		"email": "mickael@jackson.fr",
+		"role": "ops"
+	},
+	{
+		"id": "104",
+		"email": "jean-mi@fromage.fr",
+		"role": "ops"
+	},
+	{
+		"id": "105",
+		"email": "marie@jambon.com",
+		"role": "ops"
+	}
+]

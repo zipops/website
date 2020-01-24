@@ -1,0 +1,39 @@
+[
+	{
+		"number": "42",
+		"formated_date": "02 January 2006",
+		"customer": {
+			"full_name": "Mate corp.",
+			"address_line_one": "Hauptstraße 15",
+			"zipcode": "10317",
+			"city": "Berlin",
+			"country": "Germany",
+			"email": "club@mate-corp.de",
+			"phone": "+49 846342031"
+		},
+		"currency": "EUR",
+		"items": [
+			{
+				"description": "K8S cluster \"zipops-kOzddX\" management",
+				"amount": 4.48
+			},
+			{
+				"description": "K8S nodes for cluster \"zipops-kOzddX\" usage",
+				"amount": 50.02
+			}
+		],
+		"summary": [
+			{
+				"description": "Usage total",
+				"amount": 54.02
+			},
+			{
+				"description": "Credits",
+				"amount": -12.43
+			}
+		],
+		"total_without_taxes": 42.07,
+		"taxes": 8.41,
+		"total": 50.48
+	}
+]

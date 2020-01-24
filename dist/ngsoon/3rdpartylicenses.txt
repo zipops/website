@@ -632,6 +632,8 @@ MIT
 
 @angular/material/progress-spinner
 
+@angular/material/expansion
+
 @angular/material/dialog
 
 @angular/material/datepicker
